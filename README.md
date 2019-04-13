@@ -1,4 +1,4 @@
-# Usage Image Comparison
+# Usage of Image-Comparison
 Examples of the usage image-comparison project.
 
 # Description
