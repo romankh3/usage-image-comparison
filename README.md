@@ -6,6 +6,9 @@ The main idea is to show how to use this comparison tool.
 
 ## Dependency
 It's easy to add dependency
+
+**DEPENDENCY DOES NOT WORK FROM JCenter**. 
+stay tune with this issue [[FEATURE] add publishing the project](https://github.com/romankh3/image-comparison/issues/33)
 ```xml
         <dependency>
             <groupId>com.github.romankh3</groupId>
