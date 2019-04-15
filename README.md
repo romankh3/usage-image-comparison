@@ -7,14 +7,12 @@ The main idea is to show how to use this comparison tool.
 ## Dependency
 It's easy to add dependency
 
-**DEPENDENCY DOES NOT WORK FROM JCenter**. 
-stay tune with this issue [[FEATURE] add publishing the project](https://github.com/romankh3/image-comparison/issues/33)
 ```xml
-        <dependency>
-            <groupId>com.github.romankh3</groupId>
-            <artifactId>image-comparison</artifactId>
-            <version>2.0.2</version>
-        </dependency>
+   <dependency>
+       <groupId>com.github.romankh3</groupId>
+       <artifactId>image-comparison</artifactId>
+       <version>2.1.0</version>
+   </dependency>
 ```
 
 ## Code

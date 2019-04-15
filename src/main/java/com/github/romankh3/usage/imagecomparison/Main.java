@@ -1,11 +1,12 @@
 package com.github.romankh3.usage.imagecomparison;
 
+
+import com.github.romankh3.image.comparison.ImageComparison;
+import com.github.romankh3.image.comparison.ImageComparisonTools;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
-import ua.comparison.image.ImageComparison;
-import ua.comparison.image.ImageComparisonTools;
 
 public class Main {
 
