@@ -1,5 +1,5 @@
 # Usage of Image-Comparison
-Examples of the usage image-comparison project.
+Examples of the usage [image-comparison](https://github.com/romankh3/image-comparison) project.
 
 # Description
 The main idea is to show how to use this comparison tool.
