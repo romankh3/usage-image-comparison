@@ -7,12 +7,18 @@ The main idea is to show how to use this comparison tool.
 ## Dependency
 It's easy to add dependency
 
+### Maven
 ```xml
    <dependency>
        <groupId>com.github.romankh3</groupId>
        <artifactId>image-comparison</artifactId>
        <version>2.1.0</version>
    </dependency>
+```
+
+### Gradle
+```groovy
+compile 'com.github.romankh3:image-comparison:2.1.0'
 ```
 
 ## Code
