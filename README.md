@@ -36,6 +36,13 @@ public class Main {
 
         // Create ImageComparison instance based on previous data
         ImageComparison imageComparison = new ImageComparison(bufferedImage1, bufferedImage2, result);
+        
+        //Can be configured threshold value, by deafault it's 5.
+        imageComparison.setThreshold(15)
+        
+        //Can be configurated rectangleLineWidth, by default it's 1.
+        imageComparison.setRectangleLineWidth(10)
+        
         //Compare them
         BufferedImage result = imageComparison.compareImages();
         
