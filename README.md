@@ -5,7 +5,9 @@ Examples of the usage [image-comparison](https://github.com/romankh3/image-compa
 The main idea is to show how to use this comparison tool.
 
 ## Dependency
-It's easy to add dependency
+It's easy to add dependency.
+
+**Latest version is `2.2.0`**
 
 ### Maven
 ```xml
