@@ -1,6 +1,5 @@
 package com.github.romankh3.usage.imagecomparison;
 
-
 import com.github.romankh3.image.comparison.ImageComparison;
 import com.github.romankh3.image.comparison.ImageComparisonUtil;
 import com.github.romankh3.image.comparison.model.ComparisonResult;
@@ -10,6 +9,9 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
+/**
+ * Main class for showing the usage.
+ */
 public class Main {
 
     public static void main(String[] args) throws IOException, URISyntaxException {
@@ -18,17 +20,15 @@ public class Main {
         BufferedImage bufferedImage2 = ImageComparisonUtil.readImageFromResources("image2.png");
 
         // where to save the result (leave null if you want to see the result in the UI)
-        File resultDestination = new File( "result.png" );
+        File resultDestination = new File("result.png");
 
         //Create ImageComparison object for it.
-        ImageComparison imageComparison = new ImageComparison( bufferedImage1, bufferedImage2, resultDestination );
+        ImageComparison imageComparison = new ImageComparison(bufferedImage1, bufferedImage2, resultDestination);
 
         //Can be used another constructor for it, without destination.
         new ImageComparison("image1.png", "image2.png");
         //or
         new ImageComparison(bufferedImage1, bufferedImage2);
-
-
 
         //Also can be configured BEFORE comparing next properties:
 
