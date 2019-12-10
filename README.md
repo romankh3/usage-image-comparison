@@ -7,7 +7,7 @@ The main idea is to show how to use this comparison tool.
 ## Dependency
 It's easy to add dependency.
 
-**Latest version is `3.3.0`**
+**Latest version is `4.0.0`**
 
 ### Maven
 ```xml
