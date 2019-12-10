@@ -14,13 +14,13 @@ It's easy to add dependency.
    <dependency>
        <groupId>com.github.romankh3</groupId>
        <artifactId>image-comparison</artifactId>
-       <version>3.3.0</version>
+       <version>4.0.0</version>
    </dependency>
 ```
 
 ### Gradle
 ```groovy
-compile 'com.github.romankh3:image-comparison:3.3.0'
+compile 'com.github.romankh3:image-comparison:4.0.0'
 ```
 
 ## Code
@@ -28,7 +28,7 @@ See the example of the usage below:
 ```java
 public class Main {
 
-    public static void main(String[] args) throws IOException, URISyntaxException {
+    public static void main(String[] args) {
         // load the images to be compared
         BufferedImage bufferedImage1 = ImageComparisonUtil.readImageFromResources("image1.png");
         BufferedImage bufferedImage2 = ImageComparisonUtil.readImageFromResources("image2.png");
@@ -71,10 +71,10 @@ public class Main {
         imageComparison.getMinimalRectangleSize();
 
         //After configuring the ImageComparison object, can be executed compare() method:
-        ComparisonResult comparisonResult = imageComparison.compareImages();
+        ImageComparisonResult comparisonResult = imageComparison.compareImages();
 
         //Can be found ComparisonState.
-        ComparisonState comparisonState = comparisonResult.getComparisonState();
+        ImageComparisonState comparisonState = comparisonResult.getImageComparisonState();
 
         //And Result Image
         BufferedImage resultImage = comparisonResult.getResult();
